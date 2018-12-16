@@ -1,0 +1,25 @@
+title: minime
+email: ghkim3221@gmail.com
+description: minime
+url: https://ghkim3221.github.io/minime/
+
+# Social Networks
+github_username: ghkim3221
+
+# Build Settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
