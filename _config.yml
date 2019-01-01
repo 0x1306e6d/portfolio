@@ -1,10 +1,9 @@
-title: minime
-email: ghkim3221@gmail.com
-description: minime
-url: https://ghkim3221.github.io/minime/
+title: Gihwan Kim
+description: 👨🏻‍💻; full-stack programmer;
+url: https://gihwan.kr
 
-# Social Networks
-github_username: ghkim3221
+author: Gihwan Kim
+email: ghkim3221@gmail.com
 
 # Build Settings
 markdown: kramdown
