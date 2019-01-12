@@ -66,3 +66,7 @@
   color: rgba(0, 0, 0, 0.9);
   background-color: transparent;
 }
+
+.hr-borderless {
+  border: 0;
+}
