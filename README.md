@@ -1,6 +1,8 @@
-# gihwan.kr
+# portfolio
 
-Welcome, [https://gihwan.kr][1]
+My personal portfolio website about me.
+
+Visit [https://gihwan.kr][1]
 
 ## License
 
