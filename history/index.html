@@ -13,6 +13,9 @@ title: History
                 </div>
                 <div class="col-12 col-md-9">
                     <h5 class="text-dark">{{ history.name }}</h5>
+                    {% if history.description %}
+                    <p class="text-muted">{{ history.description }}</p>
+                    {% endif %}
                 </div>
             </div>
         </div>
