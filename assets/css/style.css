@@ -65,6 +65,7 @@
 .list-group-item-transparent {
   color: rgba(0, 0, 0, 0.9);
   background-color: transparent;
+  border: none;
 }
 
 .hr-borderless {
