@@ -9,6 +9,7 @@ email: ghkim3221@gmail.com
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
