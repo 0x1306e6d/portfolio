@@ -1,10 +1,5 @@
-.roboto-mono {
-  font-family: 'Roboto Mono', monospace;
-}
-
 .ui.monospace {
   font-family: monospace, monospace;
-  font-size: 1em;
 }
 
 .ui.roboto.monospace {
