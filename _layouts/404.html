@@ -5,30 +5,32 @@
     {% include head.html %}
 </head>
 
-<body>
+<body class="pushable">
 
-    <div class="ui huge text menu">
-        <div class="ui container">
-            <a href="/" class="header item">
-                Gihwan Kim
-            </a>
+    <div class="pusher">
+
+        <div class="ui huge text menu">
+            <div class="ui container">
+                <a href="/" class="header item">
+                    Gihwan Kim
+                </a>
+            </div>
         </div>
-    </div>
 
-    <div class="container">
-        <div class="m-5">
-            <h1 class="text-dark text-monospace display-3">404</h1>
-            <p class="text-muted display-4">
-                PAGE
-                <br class="d-sm-none" />
-                NOT
-                <br class="d-sm-none" />
-                FOUND
-            </p>
+        <div class="ui full height center aligned text container">
+            <div>
+                <h1 class="ui roboto monospace typography h1">
+                    404
+                </h1>
+                <p class="ui roboto monospace typography h3">
+                    PAGE NOT FOUND
+                </p>
+            </div>
         </div>
-    </div>
 
-    {% include footer.html %}
+        {% include footer.html %}
+
+    </div>
 
     {% include script.html %}
 

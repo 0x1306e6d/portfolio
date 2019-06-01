@@ -7,6 +7,10 @@
   font-size: 1em;
 }
 
+.ui.roboto.monospace {
+  font-family: 'Roboto Mono', monospace;
+}
+
 .ui.text.menu {
   padding-top: 3.125rem;
   padding-bottom: 1.875rem;
@@ -30,4 +34,12 @@
 .ui.footer {
   margin-top: 3.125rem;
   margin-bottom: 1.875rem;
+}
+
+.ui.typography.h1 {
+  font-size: 6rem;
+}
+
+.ui.typography.h3 {
+  font-size: 3rem;
 }
