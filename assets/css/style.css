@@ -1,3 +1,18 @@
 .roboto-mono {
   font-family: 'Roboto Mono', monospace;
 }
+
+.ui.text.menu {
+  padding-top: 3.125rem;
+  padding-bottom: 1.875rem;
+}
+
+.ui.text.menu .header.item {
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+.ui.social.button {
+  margin-top: 0.3125rem;
+  margin-bottom: 0.3125rem;
+}
