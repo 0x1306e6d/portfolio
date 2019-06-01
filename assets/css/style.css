@@ -16,3 +16,8 @@
   margin-top: 0.3125rem;
   margin-bottom: 0.3125rem;
 }
+
+.ui.list .history.item {
+  margin-top: 3.125rem;
+  margin-bottom: 1.875rem;
+}

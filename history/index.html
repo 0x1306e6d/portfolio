@@ -3,22 +3,26 @@ layout: default
 title: History
 ---
 
-<ul class="list-group list-group-flush list-group-transparent px-md-5">
+<div class="ui list">
     {% for history in site.data.history %}
-    <li class="list-group-item list-group-item-transparent mt-2 mb-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-3">
-                    <time class="roboto-mono">{{ history.date }}</time>
-                </div>
-                <div class="col-12 col-md-9">
-                    <h5 class="text-dark">{{ history.name }}</h5>
-                    {% if history.description %}
-                    <p class="text-muted">{{ history.description }}</p>
-                    {% endif %}
-                </div>
+    <div class="history item">
+        <div class="ui grid">
+            <div class="four wide column">
+                <p class="roboto-mono">
+                    {{ history.date }}
+                </p>
+            </div>
+            <div class="twelve wide column">
+                <h2>
+                    {{ history.name }}
+                </h2>
+                {% if history.description %}
+                <p>
+                    {{ history.description }}
+                </p>
+                {% endif %}
             </div>
         </div>
-    </li>
+    </div>
     {% endfor %}
-</ul>
+</div>
