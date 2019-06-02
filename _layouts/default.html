@@ -5,15 +5,21 @@
     {% include head.html %}
 </head>
 
-<body class="bg-light">
+<body class="pushable">
 
-    {% include navbar.html %}
+    {% include sidebar.html %}
 
-    <div class="container">
-        {{ content }}
+    <div class="pusher">
+
+        {% include menu.html %}
+
+        <div class="ui container">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+
     </div>
-
-    {% include footer.html %}
 
     {% include script.html %}
 

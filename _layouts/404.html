@@ -5,36 +5,32 @@
     {% include head.html %}
 </head>
 
-<body class="bg-light">
+<body class="pushable">
 
-    <nav class="navbar navbar-transparent sticky-top ">
-        <div class="container pt-3 pt-lg-5 pb-3">
-            <a class="navbar-brand roboto-mono mr-5" href="/">GIHWAN KIM</a>
-        </div>
-    </nav>
+    <div class="pusher">
 
-    <div class="container">
-        <div class="m-5">
-            <h1 class="text-dark text-monospace display-3">404</h1>
-            <p class="text-muted display-4">
-                PAGE
-                <br class="d-sm-none" />
-                NOT
-                <br class="d-sm-none" />
-                FOUND
-            </p>
+        <div class="ui huge text menu">
+            <div class="ui container">
+                <a href="/" class="header item">
+                    Gihwan Kim
+                </a>
+            </div>
         </div>
+
+        <div class="ui full height center aligned text container">
+            <div>
+                <h1 class="ui roboto monospace typography h1">
+                    404
+                </h1>
+                <p class="ui roboto monospace typography h3">
+                    PAGE NOT FOUND
+                </p>
+            </div>
+        </div>
+
+        {% include footer.html %}
+
     </div>
-
-    <footer class="fixed-bottom pt-5 pb-3 pt-lg-5">
-        <div class="container">
-            <p class="text-center text-dark text-monospace">
-                Made by Gihwan Kim,
-                <br class="d-sm-none">
-                Powered by Github Pages
-            </p>
-        </div>
-    </footer>
 
     {% include script.html %}
 
