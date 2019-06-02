@@ -21,9 +21,17 @@
   margin-bottom: 0.3125rem;
 }
 
-.ui.list .history.item {
+.ui.list>.history.item {
   margin-top: 3.125rem;
   margin-bottom: 1.875rem;
+}
+
+.ui.list>.history.item:first-child {
+  margin-top: 0;
+}
+
+.ui.list>.history.item:last-child {
+  margin-bottom: 0;
 }
 
 .ui.footer {
