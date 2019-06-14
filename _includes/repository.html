@@ -1,0 +1,22 @@
+<a class="ui link fluid card" href="{{ repository.html_url }}">
+  <div class="content">
+    <div class="header">
+      {{ repository.name }}
+    </div>
+    <div class="description">
+      {{ repository.description }}
+    </div>
+  </div>
+  {% if repository.forks_count > 0 %}
+  <div class="extra content">
+    <i class="share icon"></i>
+    {{ repository.forks_count }} fork
+  </div>
+  {% endif %}
+  {% if repository.stargazers_count > 0 %}
+  <div class="extra content">
+    <i class="star icon"></i>
+    {{ repository.stargazers_count }} star
+  </div>
+  {% endif %}
+</a>
