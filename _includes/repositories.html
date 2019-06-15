@@ -1,7 +1,7 @@
 <h2 class="ui header">GitHub Repositories</h2>
-<div class="ui grid">
+<div class="ui stackable two column grid container">
   {% for repository in site.github.public_repositories %}
-  <div class="eight wide computer tabled sixteen wide mobile column">
+  <div class="column">
     {% include repository.html %}
   </div>
   {% endfor %}
