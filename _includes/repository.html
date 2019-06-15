@@ -19,4 +19,10 @@
     {{ repository.stargazers_count }} star
   </div>
   {% endif %}
+  {% if repository.watchers_count > 0 %}
+  <div class="extra content">
+    <i class="eye icon"></i>
+    {{ repository.watchers_count }} watcher
+  </div>
+  {% endif %}
 </a>
