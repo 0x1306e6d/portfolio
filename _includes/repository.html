@@ -1,0 +1,40 @@
+<a class="ui link fluid card" href="{{ repository.html_url }}">
+  <div class="content">
+    <div class="header">
+      {{ repository.name }}
+    </div>
+    <div class="description">
+      {{ repository.description }}
+    </div>
+  </div>
+  {% if repository.forks_count > 0 or repository.stargazers_count > 0 or repository.watchers_count > 0 %}
+  <div class="extra content">
+    <div class="ui three column centered grid">
+      {% if repository.forks_count > 0 %}
+      <div class="column">
+        <div class="ui center aligned">
+          <i class="share icon"></i>
+          {{ repository.forks_count }} fork
+        </div>
+      </div>
+      {% endif %}
+      {% if repository.stargazers_count > 0 %}
+      <div class="column">
+        <div class="ui center aligned">
+          <i class="star icon"></i>
+          {{ repository.stargazers_count }} star
+        </div>
+      </div>
+      {% endif %}
+      {% if repository.watchers_count > 0 %}
+      <div class="column">
+        <div class="ui center aligned">
+          <i class="eye icon"></i>
+          {{ repository.watchers_count }} watcher
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+</a>
