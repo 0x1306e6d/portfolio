@@ -46,3 +46,10 @@
 .ui.typography.h3 {
   font-size: 3rem;
 }
+
+@media only screen and (max-width: 767px) {
+  .ui.menu>.ui.container {
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+  }
+}
