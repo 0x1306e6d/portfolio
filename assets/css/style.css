@@ -53,3 +53,8 @@
     margin-right: 1em !important;
   }
 }
+
+.ui.top.sidebar {
+  width: 100% !important;
+  height: 100% !important;
+}
