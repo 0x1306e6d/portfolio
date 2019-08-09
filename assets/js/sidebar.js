@@ -1,5 +1,10 @@
 $(document).ready(() => {
-  $('#sidebar-button').on('click', () => {
+  $('#sidebar-open-button').on('click', () => {
+    $('.ui.sidebar')
+      .sidebar('setting', 'transition', 'overlay')
+      .sidebar('toggle');
+  });
+  $('#sidebar-close-button').on('click', () => {
     $('.ui.sidebar')
       .sidebar('setting', 'transition', 'overlay')
       .sidebar('toggle');
