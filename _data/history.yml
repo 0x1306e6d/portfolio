@@ -1,4 +1,18 @@
 -
+  date: 2019.08.26
+  name: 제 7회 D2 CAMPUS FEST mini 최우수상 수상
+  description: >
+    제 7회 D2 CAMPUS FEST mini에서 "Databute"로 참가주제 2번, Distributed 
+    in-memory key-value store 만들기 최우수상을 수상하였습니다. 저는 이 대회에서 
+    자체적으로 클러스터를 형성하여 키 - 값 엔트리를 분산시켜 저장하는 Databuter와,
+    Databuter 클러스터에 연결하기 위한 클라이언트 라이브러리 Databutee를 
+    개발하였습니다. 오래 전부터 구상하던 분산 시스템을 직접 처음부터 구현할 수 있는 
+    좋은 기회가 되었습니다.
+    <br />
+    <a href="https://github.com/databute/databuter">Databuter</a>
+    <br />
+    <a href="https://github.com/databute/databutee">Databutee</a>
+-
   date: 2018.11.29
   name: 2018년 서울시 앱 공모전 발전상 수상
   description: >
